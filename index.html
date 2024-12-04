@@ -13,45 +13,61 @@
                 <h1>Mi Cafetería</h1>
             </div>
             <ul class="nav-links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Menú</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h2>El mejor café de la ciudad</h2>
-            <p>Disfruta de una experiencia única con nuestros granos seleccionados.</p>
-            <button>Ver Menú</button>
-        </div>
-    </section>
+<!--Primera seccion-->
 
-    <section class="featured-products">
-        <h2>Nuestros productos destacados</h2>
-        <div class="product-list">
-            <div class="product">
-                <img src="images/cafe1.jpg" alt="Café 1">
-                <h3>Café Americano</h3>
-                <p>Un clásico para comenzar el día.</p>
+    <main class="scroll-container">
+        <section id="inicio" class="section hero">
+            <div class="hero-content">
+                <h2>El mejor café de la ciudad</h2>
+                <p>Disfruta de una experiencia única con nuestros granos seleccionados.</p>
+                <button>Ver Menú</button>
             </div>
-            <div class="product">
-                <img src="images/cafe2.jpg" alt="Café 2">
-                <h3>Cappuccino</h3>
-                <p>Espresso con leche cremosa.</p>
+        </section>
+
+<!--Segunda Seccion : Seccion productos-->
+
+        <section id="menu" class="section featured-products">
+            <h2>Nuestros productos destacados</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="images/cafe1.png" alt="Café 1">
+                    <h3>Café Americano</h3>
+                    <p>Un clásico para comenzar el día.</p>
+                </div>
+                <div class="product">
+                    <img src="images/cafe2.png" alt="Café 2">
+                    <h3>Cappuccino</h3>
+                    <p>Espresso con leche cremosa.</p>
+                </div>
+                <div class="product">
+                    <img src="images/cafe3.png" alt="Café 3">
+                    <h3>Latte Macchiato</h3>
+                    <p>Espresso con leche al vapor.</p>
+                </div>
             </div>
-            <div class="product">
-                <img src="images/cafe3.jpg" alt="Café 3">
-                <h3>Latte Macchiato</h3>
-                <p>Espresso con leche al vapor.</p>
-            </div>
-        </div>
-    </section>
+        </section>
+
+        <section id="nosotros" class="section">
+            <h2>Nosotros</h2>
+            <p>En Mi Cafetería, nos enorgullecemos de ofrecer la mejor calidad en cada taza. Nuestro café es cuidadosamente seleccionado y preparado por baristas expertos.</p>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o comentario? Contáctanos al correo: info@micafeteria.com o visítanos en nuestra tienda en el centro de la ciudad.</p>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2023 Mi Cafetería</p>
+        <p>&copy; 2023 Mi Cafetería. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
